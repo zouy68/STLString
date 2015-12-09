@@ -41,7 +41,7 @@ namespace myString
 		friend bool operator>=(const Ms& ms_f, const Ms& ms_s);
 		friend bool operator<=(const Ms& ms_f, const Ms& ms_s);
 
-		//[]
+		//operator []
 		char& operator[](const size_t location);
 		const char& operator[](const size_t location) const;
 
